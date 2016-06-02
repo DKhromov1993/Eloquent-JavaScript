@@ -31,14 +31,13 @@ function range(first, second){
         temp = min;
     else
         temp = max;
- 
+
     for (var i = 0; i <= Math.abs((max - min)/step); i++){
         arr.push(temp);
         temp += step;
     }
     return arr;
 }
-
 
 function mini(f,s){
     if (f > s)
